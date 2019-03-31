@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+
+  web:
+    build: .
+    ports:
+     - "8080:5000"
+    volumes:
+     - ./src/code:/simple_service/src
+    depends_on:
+     redis:
+      condition: service_started
+
+  redis:
+    image: "redis:alpine"
