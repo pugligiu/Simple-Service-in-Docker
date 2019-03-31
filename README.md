@@ -5,7 +5,6 @@ Example of a simple service in Docker. It is using Redis and Flask. There are so
 ## Tree Directory
 ```
 .
-├── .gitignore
 ├── README.md
 ├── docker-compose.yml
 ├── Dockerfile
