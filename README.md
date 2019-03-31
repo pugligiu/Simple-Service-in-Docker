@@ -38,7 +38,7 @@ Small Service deployed to a docker container that has two endpoints:
   2. [Testability](https://en.wikipedia.org/wiki/Software_testability)
      - Test Driven Development - Clear view of testing scenarios before and after the development
      - Integrate the tests with Docker
-     - Creating testing structure keeping it similar to the real interaction
+     - Creating a testing structure keeping it similar to the real interaction
       
       
 ## User Manual
